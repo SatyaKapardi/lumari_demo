@@ -40,7 +40,7 @@ This project directly addresses Lumari's core value proposition by implementing:
 └──────┘ └──────┘ └─────────┘ └────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -61,10 +61,10 @@ python3 test_demo.py
 ```
 
 This will process 4 sample supplier emails and show:
-- ✅ Email parsing and intent classification
-- ✅ Multi-agent routing decisions
-- ✅ Entity extraction (PO numbers, dates, quantities)
-- ✅ System metrics and agent statuses
+- Email parsing and intent classification
+- Multi-agent routing decisions
+- Entity extraction (PO numbers, dates, quantities)
+- System metrics and agent statuses
 
 #### Test Individual Emails via API
 
@@ -112,7 +112,7 @@ The demo can be fully tested via terminal using:
 2. **API Testing**: Start server, use curl commands to test individual endpoints
 3. **No Web UI Required**: All functionality accessible via terminal/API
 
-## 📊 Features
+## Features
 
 ### Multi-Agent System
 - **Inbox Agent**: Parses emails, extracts supply chain entities (PO numbers, dates, quantities)
@@ -138,7 +138,7 @@ The demo can be fully tested via terminal using:
 - Spreadsheet export/import
 - ERP integration hooks (SAP, Oracle, NetSuite ready)
 
-## 🎨 Command Center UI
+## Command Center UI
 
 The web interface (`/`) provides:
 - Agent status monitoring
@@ -147,7 +147,7 @@ The web interface (`/`) provides:
 - Cost analytics dashboard
 - Manual override controls
 
-## 🔧 API Endpoints
+## API Endpoints
 
 - `POST /api/process-email` - Process a supplier email
 - `GET /api/agents/status` - Get all agent statuses
@@ -164,7 +164,7 @@ The web interface (`/`) provides:
 - Human override rate
 - Intent classification accuracy
 
-## 🛠️ Technical Highlights
+## Technical Highlights
 
 - **Agent Communication Protocol**: Structured message passing between agents
 - **Context Management**: Shared state via Redis for agent coordination
@@ -172,13 +172,13 @@ The web interface (`/`) provides:
 - **Audit Logging**: Full traceability of agent decisions
 - **Fine-Tuning Ready**: Architecture supports domain-specific model training
 
-## 🎯 Why This Matters for Lumari
+## Why This Matters for Lumari
 
 This demo showcases:
-- ✅ Proven multi-agent orchestration (your Track 1 focus)
-- ✅ Integration architecture patterns (your Track 2 strength)
-- ✅ Observability infrastructure (your Track 3 value)
-- ✅ Cost optimization strategies (your Track 4 impact)
+- Proven multi-agent orchestration 
+- Integration architecture patterns 
+- Observability infrastructure 
+- Cost optimization strategies 
 
 All built with production-ready patterns that scale to enterprise deployments.
 
